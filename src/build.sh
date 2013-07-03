@@ -19,8 +19,7 @@ esac
 VERSION="7.1.0"
 BOX="debian-${VERSION}-${ARCH}"
 
-VBOX_APPLICATION="/Applications/VirtualBox.app"
-VBOX_GUESTADDITIONS="${VBOX_APPLICATION}/Contents/MacOS/VBoxGuestAdditions.iso"
+VBOX_GUESTADDITIONS="/usr/share/virtualbox/VBoxGuestAdditions.iso"
 
 FOLDER_BASE=$(pwd)
 FOLDER_ISO="${FOLDER_BASE}/iso"
