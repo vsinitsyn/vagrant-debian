@@ -11,6 +11,15 @@ Dependencies: **VirtualBox, cdrtools, vagrant**
     brew tap homebrew/dupes
     brew install homebrew/dupes/libarchive
 
+Valentine's notes
+-----------------
+
+Forked off https://github.com/tiwilliam/vagrant-debian
+
+- Bumped to 7.1.0
+- Changed default mirror
+- Fixed some bugs (Linux-related)
+
 William's notes
 ---------------
 
